@@ -1,410 +1,724 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sazon Cubano</title>
-<link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-<header>
-<div class="menu container"> 
-  <a href="#"
-          ><img src="images/images/logo.svg" class="logo" calt=""
-        /></a>
-  <input type="checkbox" id="menu" />
-  <label for="menu"
-          ><img src="images/images/menu.png" class="menu-icono" alt=""
-        /></label>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#"> Inicio </a></li>
-      <li><a href="#"> Servicio </a></li>
-      <li><a href="#"> Producto </a></li>
-      <li><a href="#"> Contacto </a></li>
-    </ul>
-  </nav>
-</div>
-
-<div class="header-content container">
-<div class="header-txt">
-  <h1>Sazón Cubano</h1>
-  <p>Restaurante de Comida Criolla</p>
-  <div class="botones"> 
-    <a href="#" class="btn-1"
-              >Comprar <img class="icon" src="images/images/car.svg" alt="icon"
-            /></a>
-             <a href="#" class="btn-2">
-               Informacion
-                <img class="icon" src="images/images/arrow.svg" alt="icon"
-            /></a>
-           </div>
-</div>
-<div class="header-img">
-  <img src="images/images/img-1.png" class="hamburger" alt="" />
- </div>
-</div>
-
-
-
-<div class="header-content container">
-  <div class="header-txt">
-    <h1>Sazón Cubano</h1>
-    <p>Buffets y Picaderas</p>
-    <div class="botones"> <a href="#" class="btn-1"
-                >Comprar <img class="icon" src="images/images/car.svg" alt="icon"
-              /></a> <a href="#" class="btn-2"> Informacion <img class="icon" src="images/images/arrow.svg" alt="icon"
-              /></a> </div>
- </div>
- <div class="header-img">
-  <img src="images/images/img-1.png" class="hamburger" alt="" />
- </div>
-</div>
-
-</header>
-<main class="product-menu">
-
-<div class="container">
-
-<div class="product">
-  <h2 class="title">Menu</h2>
-  <img class="hoja" src="images/images/hoja.png" alt="" /> 
-</div>
-
-<div class="menu-nav">
-  <div id="pro1" class="tab active">Restaurante</div>
-  <div id="pro2" class="tab">Buffet</div>
-  <div id="pro3" class="tab">Picadera</div>
-</div>
-
-<div class="pro1 tab-content">
-  <div class="box-container-1">
-
-    <div class="box-1">
-      <div class="image">
-         <img src="images/images/hambuerger.png" alt="" /> 
-        </div>
-      <div class="content">
-        <h3>Oferta #1</h3>
-        <p>Pierna , lomo o paleta para 20 comensales Acompanado de arroz congris , yuca o malanga con mojo y ensalada mixta</p>
-        <div class="icons">
-           <span class="price">23 000</span>
-            <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> 
-                </div>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sazon Cubano</title>
+    <link rel="Stylesheet" type="text/css" href="Styles/styles.css" />
+    <script src="Scrips/JQuerry.js"></script>
+  </head>
+  <body>
+    <div id="caja-carrito" class="carrito">
+      Carrito:
+      <p><br /></p>
+      <p id="borrar"><br />Borrar</p>
     </div>
 
-    <div class="box-1">
-      <div class="image"> 
-        <img src="images/images/hambuerger.png" alt="" /> 
+    <header>
+      <div class="menu container">
+        <a href="#"><img src="pagina web/photo_2023-09-15_20-09-52.jpg" class="logo" calt="" /></a>
+        <input type="checkbox" id="menu" />
+        <label for="menu"><img src="images/images/menu.png" class="menu-icono" alt="" /></label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#" id="contacto"> Contacto </a></li>
+            <li>
+              <div>
+                <a href="https://wa.me/+5358505864?text=Hola%20¿Cómo%20estás?"><img src="images/logo.jpeg" class="logo" id="logo-menu" alt="" /></a>
+              </div>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div class="content">
-        <h3>Oferta #2</h3>
-        <p>Pierna , lomo o paleta para 25 comensales Acompanado de arroz congris , yuca o malanga con mojo y ensalada mixta</p>
-        <div class="icons"> 
-          <span class="price">26 000</span> 
-          <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> 
-                </div>
-      </div>
-    </div>
 
-    <div class="box-1">
-      <div class="image">
-         <img src="images/images/hambuerger.png" alt="" />
-         </div>
-      <div class="content">
-        <h3>Oferta #3</h3>
-        <p>Pierna , lomo o paleta para 30 comensales Acompanado de arroz congris , yuca o malanga con mojo y ensalada mixta</p>
-        <div class="icons">
-           <span class="price">28 500</span>
-            <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> 
-                </div>
-      </div>
-    </div>
-
-    <div class="box-1">
-      <div class="image">
-         <img src="images/images/hambuerger.png" alt="" /> 
-        </div>
-      <div class="content">
-        <h3>Oferta A</h3>
-        <p>Cerdo de 50lb para 15 comensales. Acompanado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
-        <div class="icons"> <span class="price">31 000</span> <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> 
-                </div>
-      </div>
-    </div>
-
-    <div class="box-1">
-      <div class="image"> 
-        <img src="images/images/hambuerger.png" alt="" /> 
-      </div>
-      <div class="content">
-        <h3>Oferta B</h3>
-        <p>Cerdo de 60lb para 20 comensales. Acompanado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
-        <div class="icons"> <span class="price">35 000</span> <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span>
-                 </div>
-      </div>
-    </div>
-
-    <div class="box-1">
-      <div class="image"> 
-        <img src="images/images/hambuerger.png" alt="" />
-       </div>
-      <div class="content">
-        <h3>Oferta C</h3>
-        <p>Cerdo de 70lb para 25 comensales. Acompanado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
-        <div class="icons">
-           <span class="price">38 000</span>
-           <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> 
-                </div>
-      </div>
-    </div>
-
-    <div class="box-1">
-      <div class="image"> 
-        <img src="images/images/hambuerger.png" alt="" />
-       </div>
-      <div class="content">
-        <h3>Oferta D</h3>
-        <p>Cerdo de 80lb para 30 comensales. Acompanado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
-        <div class="icons">
-           <span class="price">46 000</span> 
-          <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> </div>
-      </div>
-    </div>
-
-    <div class="box-1">
-      <div class="image">
-         <img src="images/images/hambuerger.png" alt="" />
-         </div>
-      <div class="content">
-        <h3>Oferta E</h3>
-        <p>Cerdo de 90lb para 40 comensales. Acompanado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
-        <div class="icons">
-           <span class="price">50 000</span>
-            <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span>
-                 </div>
-      </div>
-    </div>
-
-    <div class="box-1">
-      <div class="image"> <img src="images/images/hambuerger.png" alt="" /> </div>
-      <div class="content">
-        <h3>Oferta F</h3>
-        <p>Cerdo de 100lb para 60 comensales. Acompanado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
-        <div class="icons"> 
-          <span class="price">54 000</span>
-           <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> 
-                </div>
-      </div>
-    </div>
-
-    <div class="box-1">
-      <div class="image"> <img src="images/images/hambuerger.png" alt="" /> </div>
-      <div class="content">
-        <h3>Oferta G</h3>
-        <p>Cerdo de 110lb para 70 comensales. Acompanado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
-        <div class="icons"> <span class="price">58 000</span> <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> </div>
-      </div>
-    </div>
-
-    
-  </div>
-  
-  <center>
-    <div class="load-more" id="load-more-1">Cargar Mas</div>
-  </center>
-</div>
-
-
-  <div class="pro2 tab-content">
-
-    <div class="box-container-2">
-
-      <div class="box-2">
-        <div class="image"> <img src="images/images/hambuerger1.png" alt="" /> </div>
-        <div class="content">
-          <h3>Buffet 1</h3>
-          <ol>
-            <li>2 Dulces fino</li>
-            <li>2 Pancito con pasta</li>
-            <li>2 Croquetas</li>
-            <li>1 Capacillo de ensalada</li>
-            <li>1 Plato y cuchara</li>
-            <li>1 Servilleta</li>
-            <li>1 Retractil</li>
-          <ol>
-          <div class="icons"> <span class="price">400</span> <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> </div>
+      <div class="header-content container">
+        <div class="header-txt">
+          <h1>Sazón Cubano</h1>
+          <p>Restaurante de Comida Criolla</p>
+          <div class="botones">
+            <a href="https://wa.me/+5358505864?text=Hola%20¿Cómo%20estás?" class="btn-1">Comprar <img class="icon" src="images/images/car.svg" alt="icon" /></a>
+            <a href="#" class="btn-2">Informacion <img class="icon" src="images/images/arrow.svg" alt="icon" /></a>
+          </div>
+          <div class="informacion"><p>Seleccione su pedido en cualquiera de las 3 opciones del menu toque en el carrito verde cuando desee comprar y luego vuelva al principio y pulse comprar para enviar el pedido al gestor</p></div>
         </div>
       </div>
+    </header>
 
-    </div>
-    <center>
-      <div class="load-more" id="load-more-2">Cargar Mas</div>
-    </center>
-  </div>
-
-
-  <div class="pro3 tab-content">
-    <div class="box-container-3">
-
-      <div class="box-3">
-        <div class="image"> <img src="images/images/hamburger2.png" alt="" /> </div>
-        <div class="content">
-          <h3>Picadera #1</h3>
-          <ol>
-            <li>1 cake redondo </li>
-            <li>30 dulces</li>
-            <li>1 fuente de ensalada fria 5lt</li>
-            <li>30 panecitos con pasta</li>
-            <li>30 croquetas</li>
-            <li>30 tostones rellenos de jamon y queso</li>
-            <li>30 bolitas de queso</li>
-            <li>1 caja de refrescos de botellas</li>
-          </ol>
-          <div class="icons"> <span class="price">18 000</span> <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> </div>
+    <main class="product-menu">
+      <div class="container">
+        <div id="menu1" class="product">
+          <h2 class="title">Menu</h2>
+          <img class="hoja" src="images/images/hoja.png" alt="" />
         </div>
-      </div>
 
-      <div class="box-3">
-        <div class="image"> <img src="images/images/hamburger2.png" alt="" /> </div>
-        <div class="content">
-          <h3>Picadera #2</h3>
-          <ol>
-            <li>40 dulces finos</li>
-            <li>1 fuente de ensalada 5lt</li>
-            <li>1 tina de helado 10lt</li>
-            <li>40 tostones rellenos de jamon y queso</li>
-            <li>40 dados de carne frita</li>
-            <li>40 cunas de pizza</li>
-            <li>40 croquetas</li>
-            <li>1 botella de ron</li>
-            <li>1 caja de refrescos</li>
-          </ol>
-          <div class="icons"> <span class="price">18 000</span> <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> </div>
+        <div class="menu-nav">
+          <div id="pro1" class="tab active">Restaurante</div>
+          <div id="pro2" class="tab">Buffet</div>
+          <div id="pro3" class="tab">Picadera</div>
         </div>
-      </div>
 
-      <div class="box-3">
-        <div class="image"> <img src="images/images/hamburger2.png" alt="" /> </div>
-        <div class="content">
-          <h3>Picadera #3</h3>
-          <ol>
-            <li>2 cakes redondos </li>
-            <li>4 cajas de refrescos de botellas</li>
-            <li>2 fuentes de ensalada fria 5lt (cada una)</li>
-            <li>50 bolitas de queso</li>
-            <li>50 croquetas</li>
-            <li>50 dados de carne frita</li>
-            <li>50 tostones rellenos de jamos y queso</li>
-            <li>1 tina de helado 10litros</li>
-          </ol>
-          <div class="icons"> <span class="price">18 000</span> <span class="buy"
-                    ><img src="images/images/car.svg" alt=""
-                  /></span> 
+        <div class="pro1 tab-content">
+          <div class="box-container-1">
+            <div class="box-1">
+              <div class="image">
+                <img src="pagina web/IMG-20230915-WA0002.jpg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Oferta #1</h3>
+                <p>Pierna , lomo o paleta para 20 comensales Acompañado de arroz congris , yuca o malanga con mojo y ensalada mixta</p>
+                <div class="icons">
+                  <span class="price">23 000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
                 </div>
+              </div>
+            </div>
+
+            <div class="box-1">
+              <div class="image">
+                <img src="pagina web/IMG-20230915-WA0002.jpg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Oferta #2</h3>
+                <p>Pierna , lomo o paleta para 25 comensales Acompañado de arroz congris , yuca o malanga con mojo y ensalada mixta</p>
+                <div class="icons">
+                  <span class="price">26 000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-1">
+              <div class="image">
+                <img src="pagina web/IMG-20230915-WA0002.jpg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Oferta #3</h3>
+                <p>Pierna , lomo o paleta para 30 comensales Acompañado de arroz congris , yuca o malanga con mojo y ensalada mixta</p>
+                <div class="icons">
+                  <span class="price">28 500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-1">
+              <div class="image">
+                <img src="pagina web/IMG-20230915-WA0002.jpg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Oferta A</h3>
+                <p>Cerdo de 50lb para 15 comensales. Acompañado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
+                <div class="icons">
+                  <span class="price">31 000</span> <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-1">
+              <div class="image">
+                <img src="pagina web/IMG-20230915-WA0015.jpg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Oferta B</h3>
+                <p>Cerdo de 60lb para 20 comensales. Acompañado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
+                <div class="icons">
+                  <span class="price">35 000</span> <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-1">
+              <div class="image">
+                <img src="pagina web/IMG-20230915-WA0015.jpg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Oferta C</h3>
+                <p>Cerdo de 70lb para 25 comensales. Acompañado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
+                <div class="icons">
+                  <span class="price">38 000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-1">
+              <div class="image">
+                <img src="pagina web/IMG-20230915-WA0015.jpg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Oferta D</h3>
+                <p>Cerdo de 80lb para 30 comensales. Acompañado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
+                <div class="icons">
+                  <span class="price">46 000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-1">
+              <div class="image">
+                <img src="pagina web/IMG-20230915-WA0015.jpg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Oferta E</h3>
+                <p>Cerdo de 90lb para 40 comensales. Acompañado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
+                <div class="icons">
+                  <span class="price">50 000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-1">
+              <div class="image"><img src="pagina web/IMG-20230915-WA0015.jpg" alt="" /></div>
+              <div class="content">
+                <h3>Oferta F</h3>
+                <p>Cerdo de 100lb para 60 comensales. Acompañado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
+                <div class="icons">
+                  <span class="price">54 000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-1">
+              <div class="image"><img src="pagina web/IMG-20230915-WA0015.jpg" alt="" /></div>
+              <div class="content">
+                <h3>Oferta G</h3>
+                <p>Cerdo de 110lb para 70 comensales. Acompañado de arroz congri, yuca o malanga con mojo y ensalada mixta</p>
+                <div class="icons">
+                  <span class="price">58 000</span> <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <center>
+            <div class="load-more" id="load-more-1">Cargar Mas</div>
+          </center>
+        </div>
+
+        <div class="pro2 tab-content">
+          <div class="box-container-2">
+            <div class="box-2">
+              <div class="content">
+                <h3>Buffet 1</h3>
+                <ol>
+                  <li>2 Dulces fino</li>
+                  <li>2 Pancito con pasta</li>
+                  <li>2 Croquetas</li>
+                  <li>1 Capacillo de ensalada</li>
+                  <li>1 Plato y cuchara</li>
+                  <li>1 Servilleta</li>
+                  <li>1 Retractil</li>
+                </ol>
+                <div class="icons">
+                  <span class="price">400</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <center>
+            <div class="load-more" id="load-more-2">Cargar Mas</div>
+          </center>
+        </div>
+
+        <div class="pro3 tab-content">
+          <div class="box-container-3">
+            <div class="box-3">
+              <div class="image"><img src="pagina web/IMG-20230915-WA0006.jpg" alt="" /></div>
+              <div class="content">
+                <h3>Picadera #1</h3>
+                <ol>
+                  <li>1 cake redondo</li>
+                  <li>30 dulces</li>
+                  <li>1 fuente de ensalada fria 5lt</li>
+                  <li>30 panecitos con pasta</li>
+                  <li>30 croquetas</li>
+                  <li>30 tostones rellenos de jamon y queso</li>
+                  <li>30 bolitas de queso</li>
+                  <li>1 caja de refrescos de botellas</li>
+                </ol>
+                <div class="icons">
+                  <span class="price">18 000</span> <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-3">
+              <div class="content">
+                <h3>Picadera #2</h3>
+                <ol>
+                  <li>40 dulces finos</li>
+                  <li>1 fuente de ensalada 5lt</li>
+                  <li>1 tina de helado 10lt</li>
+                  <li>40 tostones rellenos de jamon y queso</li>
+                  <li>40 dados de carne frita</li>
+                  <li>40 cunas de pizza</li>
+                  <li>40 croquetas</li>
+                  <li>1 botella de ron</li>
+                  <li>1 caja de refrescos</li>
+                </ol>
+                <div class="icons">
+                  <span class="price">18 000</span> <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-3">
+              <div class="image"><img src="pagina web/IMG-20230915-WA0008.jpg" alt="" /></div>
+              <div class="content">
+                <h3>Picadera #3</h3>
+                <ol>
+                  <li>2 cakes redondos</li>
+                  <li>4 cajas de refrescos de botellas</li>
+                  <li>2 fuentes de ensalada fria 5lt (cada una)</li>
+                  <li>50 bolitas de queso</li>
+                  <li>50 croquetas</li>
+                  <li>50 dados de carne frita</li>
+                  <li>50 tostones rellenos de jamos y queso</li>
+                  <li>1 tina de helado 10litros</li>
+                </ol>
+                <div class="icons">
+                  <span class="price">18 000</span> <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <center>
+            <div class="load-more" id="load-more-1">Cargar Mas</div>
+          </center>
         </div>
       </div>
-      <center>
-        <div class="load-more" id="load-more-1">Cargar Mas</div>
-      </center>
+    </main>
 
-      </div>
-    </div>
-  </div>
-
-</div>
-
-</main>
-
-<section class="info">
-  <div class="info-content container">
-    <div class="info-txt">
-      <p>Los Mejores platillos</p>
-      <h2>Informacion</h2>
-      <div class="info-sec">
-        <div class="info-1"> <img src="images/images/f1.svg" alt="" />
-          <div class="info-2">
-            <h3>Ofertas</h3>
-            <p>Ofertas variadas.</p>
+    <section class="info">
+      <div class="info-content container">
+        <div class="info-txt">
+          <p>Los Mejores platillos</p>
+          <h2>Información</h2>
+          <div class="info-sec">
+            <div class="menu-nav-2">
+              <div id="pro4" class="tab active">Tarifas de Mensajeria</div>
+              <div id="pro5" class="tab">Ofertas Varias</div>
+            </div>
           </div>
         </div>
-        <div class="info-1"> <img src="images/images/f2.svg" alt="" />
-          <div class="info-2">
-            <h3>Tarifas de Mensajeria</h3>
-            <p>Solo en la provincia de La Habana.</p>
+        <div class="info-img"><img src="images/images/info.png" alt="" /></div>
+      </div>
+      <div class="container-info">
+        <div class="pro4 tab-content">
+          <div class="box-container-4">
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" />
+              </div>
+              <div class="content">
+                <h3>10 de Octubre</h3>
+                <div class="icons">
+                  <span class="price">1000</span><span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" />
+              </div>
+              <div class="content">
+                <h3>Centro Habana</h3>
+                <div class="icons">
+                  <span class="price">1000</span><span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Habana Vieja</h3>
+                <div class="icons">
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Plaza de la Revolucion</h3>
+                <div class="icons">
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Playa</h3>
+                <ol>
+                  <li>Hasta 42 (incluye Miramar)</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Hasta 70</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Naútico</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Hasta el Paradero</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Siboney</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Cubanacan</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Jaimanita</li>
+                  <span class="price">2500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Santa Fe</li>
+                  <span class="price">2500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </ol>
+                <div class="icons">
+                  <span class="price"></span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Arroyo Naranjo</h3>
+                <ol>
+                  <li>Parraga y La Palma</li>
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Víbora Park</li>
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Mantilla</li>
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Eléctrico</li>
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Güinera</li>
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Capri</li>
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Los Pinos</li>
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Hasta Vieja Linda</li>
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Calvario</li>
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Poey</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Managua</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Reparto Montejo</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Las Guásimas</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </ol>
+                <div class="icons">
+                  <span class="price"></span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>La Lisa</h3>
+                <ol>
+                  <li>UCI</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>El Guatao Park</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Hasta el Frank País</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Hasta La Coronela</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>San Agustín y Arroyo</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Arenas hasta la Novia del Mediodía</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Punta Brava</li>
+                  <span class="price">2500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Hasta Vieja Linda</li>
+                  <span class="price">2500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </ol>
+                <div class="icons">
+                  <span class="price"></span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Boyeros</h3>
+                <ol>
+                  <li>Mazorra</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>William Soler</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Abel Santa María</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Hasta el entronque de la CUJAE</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>La CUJAE</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Después de la CUJAE hasta el aeropuerto</li>
+                  <span class="price">2500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Santiago de las Vegas</li>
+                  <span class="price">2500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Wajay</li>
+                  <span class="price">2500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Calabazar y el Trigal</li>
+                  <span class="price">2500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Altahabana</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </ol>
+                <div class="icons">
+                  <span class="price"></span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>CEGUERA</h3>
+                <ol>
+                  <li>CEGUERA</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Marianao</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>MARIANAO FINAL</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </ol>
+                <div class="icons">
+                  <span class="price"></span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Regla</h3>
+                <div class="icons">
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Cotorro</h3>
+                <p>Alberro</p>
+                <span class="price">1500</span><span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                <div class="icons">
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Habana del Este</h3>
+                <ol>
+                  <li>Alamar</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Bahía</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Guanabo FINAL</li>
+                  <span class="price">2500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </ol>
+                <div class="icons">
+                  <span class="price"></span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Guanabacoa</h3>
+                <ol>
+                  <li>semáforo de Guanabacoa</li>
+                  <span class="price">1000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>el puente de Santa Fe</li>
+                  <span class="price">1500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>puente de Santa Fe hasta Bacuranao</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Hasta Barrera</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </ol>
+                <div class="icons">
+                  <span class="price"></span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-4">
+              <div class="image">
+                <img src="images/download.jpeg" alt="" />
+              </div>
+              <div class="content">
+                <h3>San Miguel Padrón</h3>
+                <p>Hasta la Cuevita</p>
+                <div class="icons">
+                  <span class="price">800</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <center>
+            <div class="load-more" id="load-more-4">Cargar Mas</div>
+          </center>
+        </div>
+
+        <div class="pro5 tab-content">
+          <div class="box-container-5">
+            <div class="box-5">
+              <div class="image"><img src="images/images/hambuerger1.png" alt="" /></div>
+              <div class="content">
+                <h3>Ofertas Variadas</h3>
+                <ol>
+                  <li><h3>Pan con pasta</h3></li>
+                  <span class="price">25</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Bolitas de queso</li>
+                  <span class="price">20</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Tostones rellenos de jamón y queso</li>
+                  <span class="price">40</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Dulces finos</li>
+                  <span class="price">85</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Tinas de helado de 10 litros</li>
+                  <span class="price">3500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Ensalada fría 5 litros</li>
+                  <span class="price">4500</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Cuña de Pizza</li>
+                  <span class="price">50</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Malta</li>
+                  <span class="price">230</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Ron</li>
+                  <span class="price">2000</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Vino</li>
+                  <span class="price">800</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Cerveza</li>
+                  <span class="price">230</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                  <li>Caja de refrescos de 24 botellas</li>
+                  <span class="price">800</span>
+                  <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+                </ol>
+              </div>
+              <div class="icons">
+                <span class="price">400</span> <span class="buy"><img src="images/images/car.svg" alt="" /></span>
+              </div>
+            </div>
+          </div>
+          <center>
+            <div class="load-more" id="load-more-5">Cargar Mas</div>
+          </center>
         </div>
       </div>
-    </div>
-    <div class="info-img"> <img src="images/images/info.png" alt="" /> </div>
-  </div>
-</section>
-<footer class="footer container"> <img class="logo-2" src="images/images/logo.svg" alt="" />
-  <div class="links">
-    <h4>Hamburguesa</h4>
-    <ul>
-      <li><a href="#">Oferta 1 </a></li>
-      <li><a href="#">Oferta 2</a></li>
-      <li><a href="#">Oferta 3</a></li>
-      <li><a href="#">Oferta 4</a></li>
-    </ul>
-  </div>
-  <div class="links">
-    <h4>Tacos </h4>
-    <ul>
-      <li><a href="#">Oferta 1 </a></li>
-      <li><a href="#">Oferta 2</a></li>
-      <li><a href="#">Oferta 3</a></li>
-      <li><a href="#">Oferta 4</a></li>
-    </ul>
-  </div>
-  <div class="links">
-    <h4>Desayuno </h4>
-    <ul>
-      <li><a href="#">Oferta 1 </a></li>
-      <li><a href="#">Oferta 2</a></li>
-      <li><a href="#">Oferta 3</a></li>
-      <li><a href="#">Oferta 4</a></li>
-    </ul>
-  </div>
-  <div class="links">
-    <h4>lorem</h4>
-    <div class="socials"> <a href="#">
-      <div class="social"> <img src="images/images/s1.svg" alt="" /> </div>
-      </a> <a href="#">
-      <div class="social"> <img src="images/images/s2.svg" alt="" /> </div>
-      </a> <a href="#">
-      <div class="social"> <img src="images/images/s3.svg" alt="" /> </div>
-      </a> </div>
-  </div>
-</footer>
-<script src="script.js"></script>
-</body>
+    </section>
+
+    <footer class="footer container"><img src="pagina web/photo_2023-09-15_20-09-52.jpg" class="logo" calt="" /></footer>
+
+    <script src="Scrips/script.js"></script>
+  </body>
 </html>

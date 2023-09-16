@@ -429,8 +429,15 @@ header {
   display: none;
   width: 2vw;
 }
+#logo-img img{
+  position: relative;
+}
 
 @media (max-width: 991px) {
+  #logo-img img{
+    position: relative;
+    width: 10%;
+  }
   .informacion {
     width: 50%;
   }

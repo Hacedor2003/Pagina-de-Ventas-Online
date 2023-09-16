@@ -112,6 +112,7 @@ function onBtn1() {
   const whatsappLink = "https://wa.me/+5358505864?text=" + encodeURIComponent(message);
   // Redirect the user to the WhatsApp link
   window.location.href = whatsappLink;
+  //alert(message);
 }
 
 
